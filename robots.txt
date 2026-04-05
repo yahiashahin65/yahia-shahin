@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>باسم التونسي | 2D & 3D Artist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode"> 
+
+    <nav>
+        <div class="container nav-flex">
+            <div class="logo">BASSEM<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#portfolio">أعمالي</a></li>
+                <li><button id="theme-toggle" class="theme-btn"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="profile-circle">
+                <img src="https://ui-avatars.com/api/?name=Bassem+Eltonsy&background=d4a373&color=fff&size=200" alt="Bassem">
+            </div>
+            <h1>أهلاً، أنا <span class="accent-text">باسم التونسي</span></h1>
+            <p>مصمم بصري متخصص في ابتكار عوالم 2D و 3D بجودة احترافية.</p>
+            <div class="hero-btns">
+                <a href="#portfolio" class="btn primary">تصفح المشاريع</a>
+                <a href="https://wa.me/966543060116" class="btn secondary">تواصل معي</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <h2 class="section-title">عن مهاراتي</h2>
+            <div class="skills-grid-modern">
+                <div class="skill-item-new">
+                    <i class="fas fa-image"></i>
+                    <span>Photoshop</span>
+                </div>
+                <div class="skill-item-new">
+                    <i class="fas fa-cube"></i>
+                    <span>Blender</span>
+                </div>
+                <div class="skill-item-new">
+                    <i class="fas fa-pen-nib"></i>
+                    <span>Illustrator</span>
+                </div>
+                <div class="skill-item-new">
+                    <i class="fas fa-film"></i>
+                    <span>After Effects</span>
+                </div>
+                <div class="skill-item-new">
+                    <i class="fas fa-vr-cardboard"></i>
+                    <span>3D Modeling</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="portfolio">
+            <h2 class="section-title">معرض الأعمال</h2>
+
+            <!-- Filter Buttons -->
+            <div class="filter-btns">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="3d">3D Render</button>
+                <button class="filter-btn" data-filter="2d">2D Design</button>
+            </div>
+
+            <div class="grid">
+                <!-- 3D Cards -->
+                <div class="card" data-category="3d">
+                    <img src="b1.jpg" alt="توفير الماهر للكماليات">
+                    <div class="card-content">
+                        <h3>توفير الماهر للكماليات</h3>
+                        <p>تصميم واجهة محل تجاري بإضاءة ليلية دافئة — Blender</p>
+                    </div>
+                </div>
+                <div class="card" data-category="3d">
+                    <img src="b2.jpg" alt="سرير السعادة للمفارش">
+                    <div class="card-content">
+                        <h3>سرير السعادة للمفارش</h3>
+                        <p>ريندر واجهة محل زجاجية مع هوية بصرية داخلية — Blender</p>
+                    </div>
+                </div>
+                <div class="card" data-category="3d">
+                    <img src="b3.jpg" alt="ProCar - مركز صيانة السيارات">
+                    <div class="card-content">
+                        <h3>ProCar — مركز صيانة السيارات</h3>
+                        <p>تصميم واجهة خارجية نهارية مع تطبيق الهوية على اللوحات — Blender</p>
+                    </div>
+                </div>
+                <div class="card" data-category="3d">
+                    <img src="b4.jpg" alt="Riyaha">
+                    <div class="card-content">
+                        <h3>Riyaha</h3>
+                        <p>واجهة مبنى تجاري بتفاصيل معمارية وإضاءة مدمجة — Blender</p>
+                    </div>
+                </div>
+                <div class="card" data-category="3d">
+                    <img src="b5.jpg" alt="مطعم مذاق ون البخاري">
+                    <div class="card-content">
+                        <h3>مطعم مذاق ون البخاري</h3>
+                        <p>ريندر واجهة مطعم بتصميم جريء وإضاءة إعلانية بارزة — Blender</p>
+                    </div>
+                </div>
+                <div class="card" data-category="3d">
+                    <img src="b6.jpg" alt="Al Rehab Rent a Car">
+                    <div class="card-content">
+                        <h3>Al Rehab Rent a Car</h3>
+                        <p>تصميم واجهة شركة تأجير سيارات بألوان هوية قوية — Blender</p>
+                    </div>
+                </div>
+                <div class="card" data-category="3d">
+                    <img src="b7.jpg" alt="Pink Details Floral Boutique">
+                    <div class="card-content">
+                        <h3>Pink Details — Floral Boutique</h3>
+                        <p>ريندر ليلي لمحل زهور أنيق بإضاءة خلفية مميزة — Blender</p>
+                    </div>
+                </div>
+
+                <!-- 2D Cards -->
+                <div class="card" data-category="2d">
+                    <img src="ba1.jpg" alt="منيو صاروخ الشاورما">
+                    <div class="card-content">
+                        <h3>منيو صاروخ الشاورما</h3>
+                        <p>تصميم قائمة طعام بأسلوب كلاسيكي دافئ مع تنظيم هرمي للأسعار — Illustrator / Photoshop</p>
+                    </div>
+                </div>
+                <div class="card" data-category="2d">
+                    <img src="ba2.jpg" alt="منيو النكهة السورية">
+                    <div class="card-content">
+                        <h3>منيو النكهة السورية</h3>
+                        <p>قائمة طعام متكاملة بتصميم احترافي يعكس أصالة المطبخ السوري — Illustrator / Photoshop</p>
+                    </div>
+                </div>
+                <div class="card" data-category="2d">
+                    <img src="ba6.jpg" alt="لوحة شالية مارين">
+                    <div class="card-content">
+                        <h3>لوحة شالية مارين</h3>
+                        <p>موكاب لوحة أكريليك بتصميم أنيق بالذهبي والأسود — Illustrator</p>
+                    </div>
+                </div>
+                <div class="card" data-category="2d">
+                    <img src="ba7.jpg" alt="بوستر ثمرة الاسكان">
+                    <div class="card-content">
+                        <h3>بوستر ثمرة الإسكان</h3>
+                        <p>تصميم إعلاني نابض بالألوان لسوبر ماركت محلي — Photoshop / Illustrator</p>
+                    </div>
+                </div>
+                <div class="card" data-category="2d">
+                    <img src="ba3.jpg" alt="إعلان برواستد تشيكن">
+                    <div class="card-content">
+                        <h3>Super Delicious — Broasted Chicken</h3>
+                        <p>بوستر إعلاني بأسلوب كارتوني جذاب لمطعم دجاج مقلي — Illustrator / Photoshop</p>
+                    </div>
+                </div>
+                <div class="card" data-category="2d">
+                    <img src="ba4.jpg" alt="منيو لذة أطايب">
+                    <div class="card-content">
+                        <h3>منيو لذة أطايب</h3>
+                        <p>قائمة طعام متكاملة بأسلوب داكن جريء تشمل بروست وشاورما وبرجر — Illustrator / Photoshop</p>
+                    </div>
+                </div>
+                <div class="card" data-category="2d">
+                    <img src="ba5.jpg" alt="مزارع الفهد وإخوانه">
+                    <div class="card-content">
+                        <h3>مزارع الفهد وإخوانه</h3>
+                        <p>تصميم لافتة مزرعة بأسلوب واقعي فاخر للنخيل والخضار — Illustrator / Photoshop</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer id="contact">
+        <div class="socials">
+            <a href="#"><i class="fab fa-behance"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>© 2026 باسم التونسي - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
