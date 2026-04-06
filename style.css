@@ -700,3 +700,35 @@ section {
     margin: 2rem auto;
     object-fit: cover;
 }
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.profile-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(184, 149, 106, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 80px rgba(184, 149, 106, 0.3);
+}
+
+/* RESPONSIVE: */
+@media (max-width: 768px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .profile-image {
+        max-width: 300px;
+    }
+}
