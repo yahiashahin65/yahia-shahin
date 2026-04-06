@@ -1,0 +1,40 @@
+{
+  "name": "yahia-shahin-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Yahia Shahin - Full-Stack Developer & AI Engineer from Saudi Arabia",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "start": "python -m http.server 8000",
+    "build": "echo 'Static site - no build needed'",
+    "test": "echo 'No tests configured yet'"
+  },
+  "keywords": [
+    "yahia shahin",
+    "portfolio",
+    "full-stack developer",
+    "AI engineer",
+    "react",
+    "python",
+    "web development",
+    "machine learning",
+    "NLP",
+    "developer portfolio"
+  ],
+  "author": "Yahia Shahin",
+  "email": "yahiashahin65@gmail.com",
+  "url": "https://yahia-shahin.vercel.app",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yahiashahin65/portfolio"
+  },
+  "bugs": {
+    "url": "https://github.com/yahiashahin65/portfolio/issues"
+  },
+  "homepage": "https://yahia-shahin.vercel.app",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
