@@ -710,7 +710,7 @@ section {
 
 .profile-image {
     width: 100%;
-    max-width: 400px;
+    max-width: 280px;
     border-radius: 20px;
     box-shadow: 0 20px 60px rgba(184, 149, 106, 0.2);
     transition: transform 0.3s ease;
@@ -725,10 +725,10 @@ section {
 @media (max-width: 768px) {
     .hero-grid {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 1rem;
     }
     
     .profile-image {
-        max-width: 300px;
+        max-width: 150px;
     }
 }
