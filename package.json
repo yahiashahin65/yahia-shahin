@@ -34,7 +34,6 @@
   },
   "homepage": "https://yahia-shahin.vercel.app",
   "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6.0.0"
+    "node": "20.x"
   }
 }
