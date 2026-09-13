@@ -1,26 +1,34 @@
+# ============================================
+# Yahia Shahin Portfolio - robots.txt
+# ============================================
+
 User-agent: *
 Allow: /
-Disallow: /#
 
-# Crawl-delay for all bots (in seconds)
-Crawl-delay: 1
-
-# Sitemaps
+# Sitemap
 Sitemap: https://yahia-shahin.vercel.app/sitemap.xml
 
-# Google specific
+
+# ============================================
+# Google
+# ============================================
+
 User-agent: Googlebot
 Allow: /
-Disallow: /#
-Crawl-delay: 0
 
-# Bing specific
+
+# ============================================
+# Bing
+# ============================================
+
 User-agent: Bingbot
 Allow: /
-Disallow: /#
-Crawl-delay: 1
 
-# Block bad bots
+
+# ============================================
+# Block selected SEO / scraping bots
+# ============================================
+
 User-agent: MJ12bot
 Disallow: /
 
