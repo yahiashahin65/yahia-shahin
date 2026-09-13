@@ -1,38 +1,92 @@
 {
   "name": "yahia-shahin-portfolio",
-  "version": "1.0.0",
-  "description": "Professional portfolio website for Yahia Shahin - Full-Stack Developer & AI Engineer from Saudi Arabia",
+  "version": "1.1.0",
+  "description": "Professional portfolio website for Yahia Shahin - Full-Stack Developer, AI Engineer, Data Analyst and Power BI Developer based in Madina, Saudi Arabia.",
   "main": "index.html",
   "scripts": {
     "dev": "python -m http.server 8000",
     "start": "python -m http.server 8000",
-    "build": "echo 'Static site - no build needed'",
-    "test": "echo 'No tests configured yet'"
+    "build": "echo \"Static portfolio website - no build step required\"",
+    "test": "echo \"No automated tests configured yet\""
   },
   "keywords": [
     "yahia shahin",
+    "Yahia Shahin",
+    "yahia-shahin",
     "portfolio",
+    "developer portfolio",
+    "Saudi Arabia developer",
+    "Madina developer",
+
     "full-stack developer",
+    "software developer",
+    "web developer",
+    "frontend developer",
+    "business analyst",
+
+    "React",
+    "React.js",
+    "JavaScript",
+    "TypeScript",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "Laravel",
+    "PHP",
+    "Flask",
+    "MySQL",
+    "REST API",
+
     "AI engineer",
-    "react",
-    "python",
-    "web development",
+    "AI developer",
+    "machine learning engineer",
     "machine learning",
+    "artificial intelligence",
     "NLP",
-    "developer portfolio"
+    "natural language processing",
+    "TensorFlow",
+    "Scikit-learn",
+
+    "data analyst",
+    "Data Analyst Saudi Arabia",
+    "Power BI developer",
+    "Power BI",
+    "business intelligence",
+    "BI developer",
+    "SQL",
+    "SQL analyst",
+    "Python data analyst",
+    "Python",
+    "Pandas",
+    "DAX",
+    "data modeling",
+    "data visualization",
+    "data analysis",
+    "data analytics",
+    "dashboard development",
+    "interactive dashboards",
+    "KPI reporting",
+    "sales analysis",
+    "profitability analysis",
+    "customer segmentation",
+    "product analysis",
+    "returns analysis",
+    "time series analysis"
   ],
-  "author": "Yahia Shahin",
-  "email": "yahiashahin65@gmail.com",
-  "url": "https://yahia-shahin.vercel.app",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yahiashahin65/portfolio"
-  },
-  "bugs": {
-    "url": "https://github.com/yahiashahin65/portfolio/issues"
+  "author": {
+    "name": "Yahia Shahin",
+    "email": "yahiashahin65@gmail.com",
+    "url": "https://yahia-shahin.vercel.app"
   },
   "homepage": "https://yahia-shahin.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yahiashahin65/yahia-shahin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yahiashahin65/yahia-shahin/issues"
+  },
+  "license": "MIT",
   "engines": {
     "node": "20.x"
   }
